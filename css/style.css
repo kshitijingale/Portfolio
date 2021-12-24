@@ -1,0 +1,116 @@
+#title {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  min-height: 720px;
+}
+.container-fluid {
+  padding: 2% 5% 2%;
+}
+
+body {
+  font-family: 'ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 40px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: bold; */
+  font-size: 1.8rem;
+}
+p {
+  color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 2px 20px;
+  color: #ff4c68;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* Home */
+
+.home {
+  text-align: center;
+  margin: 3%;
+  padding: 0%;
+}
+
+.intro-h5 {
+  margin: 0;
+  padding: 0;
+  color: #ff4c68;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.intro-h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.intro-p {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.intro-btn {
+  margin: 40px;
+}
+
+.intro-social {
+    list-style: none;
+    padding: 0;
+}
+
+.icon-cls{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.icon{
+    color: white;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* About */
+
+#about {
+  height: 500px;
+  background-color: palegreen;
+}
+#portfolio {
+  height: 500px;
+}
+#contact {
+  height: 500px;
+}
