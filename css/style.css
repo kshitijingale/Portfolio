@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-  padding: 2% 5% 2%;
+  padding: 0% 5% 2%;
 }
 
 body {
@@ -18,20 +18,20 @@ h1 {
   padding-top: 40px;
 }
 
-h2 {
+/* h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 3rem;
   line-height: 1.5;
-}
+} */
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'ubuntu', sans-serif;
   font-size: 1.8rem;
 }
 
 p {
-  color: white;
+  color: grey;
 }
 
 /* Navbar */
@@ -106,13 +106,83 @@ p {
 /* About */
 
 #about {
-  height: 500px;
+  padding: 0% 10%;
+}
+
+.about-h1 {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.profile-pic {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.hello {
+  margin: 0;
+  padding: 5px;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  color: #ff4c68;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.profileAndSkills {
+  text-align: left;
+}
+
+.profile {
+  padding: 10px;
+}
+
+.skills {
+  padding: 10px;
+}
+
+.profile-h3 {
+  margin-bottom: 30px;
+}
+
+.skills-h3 {
+  margin-bottom: 30px;
+}
+
+.about-btn {
+  text-align: center;
+  padding: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 950px) {
+  .about-btn {
+    flex-direction: column;
+  }
+}
+
+.hire-btn {
+  margin: 5px 15px;
+}
+
+.cv-btn { 
+  margin: 5px 15px;
 }
 
 #portfolio {
   height: 500px;
+  text-align: center;
 }
 
 #contact {
   height: 500px;
+  text-align: center;
 }
