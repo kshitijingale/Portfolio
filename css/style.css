@@ -1,9 +1,8 @@
 #title {
   background-color: black;
   color: white;
-  height: 100vh;
-  min-height: 720px;
 }
+
 .container-fluid {
   padding: 2% 5% 2%;
 }
@@ -18,17 +17,19 @@ h1 {
   line-height: 1.5;
   padding-top: 40px;
 }
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 3rem;
   line-height: 1.5;
 }
+
 h3 {
   font-family: 'Montserrat', sans-serif;
-  /* font-weight: bold; */
   font-size: 1.8rem;
 }
+
 p {
   color: white;
 }
@@ -47,7 +48,6 @@ p {
 
 .nav-item {
   padding: 2px 20px;
-  color: #ff4c68;
 }
 
 .nav-link {
@@ -63,7 +63,7 @@ p {
 }
 
 .intro-h5 {
-  margin: 0;
+  margin-top: 200px;
   padding: 0;
   color: #ff4c68;
   font-family: 'Courier New', Courier, monospace;
@@ -84,33 +84,35 @@ p {
 }
 
 .intro-social {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 180px;
 }
 
-.icon-cls{
-    display: inline-block;
-    margin: 0px 40px;
+.icon-cls {
+  display: inline-block;
+  margin: 0px 40px;
 }
 
-.icon{
-    color: white;
-    margin-bottom: 1rem;
+.icon {
+  color: white;
+  margin-bottom: 1rem;
+  margin: 10px;
 }
-.icon:hover{
-    color: #ff4c68;
+.icon:hover {
+  color: #ff4c68;
 }
-
 
 /* About */
 
 #about {
   height: 500px;
-  background-color: palegreen;
 }
+
 #portfolio {
   height: 500px;
 }
+
 #contact {
   height: 500px;
 }
