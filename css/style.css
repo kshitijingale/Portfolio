@@ -25,6 +25,10 @@ p {
   color: grey;
 }
 
+a{
+  text-decoration: none;
+}
+
 
 #title {
   background-color: black;
@@ -268,13 +272,13 @@ p {
 }
 
 #projects .item .right .project-title {
-	font-size: 2.5rem;
+	font-size: 1.6rem;
 	font-family: 'Montserrat';
 	margin-bottom: 1rem;
 }
 
 #projects .item .right .project-sub-title {
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	margin-bottom: 2rem;
 }
 
@@ -338,6 +342,7 @@ p {
 
 .handle{
   padding: 3% 1%;
+  color: white;
 }
 
 .handle:hover{
