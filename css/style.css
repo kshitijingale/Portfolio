@@ -42,7 +42,7 @@ a{
 /* Navbar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 1rem 0 4.5rem;
 }
 
 .navbar-brand {
@@ -112,11 +112,6 @@ a{
 
 #about {
   padding: 0% 10%;
-}
-
-.about-h1 {
-  width: 30%;
-  margin: auto;
   text-align: center;
 }
 
@@ -182,10 +177,21 @@ a{
   margin: 5px 15px;
 }
 
+.section-break {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 15px;
+  border-color: gray;
+  color: white;
+  width: 30%;
+  margin: auto;
+}
+
 /* Portfolio */
 
 #portfolio {
   text-align: center;
+  margin-top: 2%;
 }
 
 .computer-img {
@@ -332,10 +338,17 @@ a{
 /* Contact */
 
 #contact {
-  height: 500px;
   text-align: center;
   color: white;
   background-color: black;
+  padding: 2%;
+}
+
+
+.form-section{
+  margin: auto;
+  padding: 3%;
+  width: 60%;
 }
 
 /* footer */
