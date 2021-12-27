@@ -36,7 +36,7 @@ a{
 }
 
 .container-fluid {
-  padding: 0% 5% 2%;
+  padding: 0% 5% 8%;
 }
 
 /* Navbar */
@@ -91,12 +91,12 @@ a{
 .intro-social {
   list-style: none;
   padding: 0;
-  margin-top: 180px;
+  margin-top: 150px;
 }
 
 .icon-cls {
   display: inline-block;
-  margin: 0px 40px;
+  margin: 0px 20px;
 }
 
 .icon {
