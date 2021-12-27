@@ -265,22 +265,25 @@
     <section id="contact">
       <h1>Contact</h1>
       <div class="contact-form">
-        <form>
+        <form
+          action="https://formspree.io/f/mrgjbbrb"
+          method="POST"
+        >
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" id="name" class="form-control">
+            <input name="name" type="text" id="name" class="form-control">
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
-            <input id="email" type="email" class="form-control">
+            <input name="email" id="email" type="email" class="form-control">
           </div>
           <div class="mb-3">
             <label for="phone" class="form-label">Phone</label>
-            <input id="phone" type="number" class="form-control">
+            <input name="phone" id="phone" type="number" class="form-control">
           </div>
           <div class="mb-3">
-            <label for="messagearea" class="form-label">Message</label>
-            <textarea class="form-control" id="messagearea" rows="3"></textarea>
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" class="form-control" id="message" rows="3"></textarea>
           </div>
           <button type="submit" class="btn btn-danger">Submit</button>
         </form>
