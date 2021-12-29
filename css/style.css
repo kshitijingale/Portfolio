@@ -123,6 +123,9 @@ a{
 .profile-pic {
   margin-top: 20px;
   padding: 0px;
+  height: 138px;
+  width: 138px;
+  border-radius: 50%;
 }
 
 .hello {
