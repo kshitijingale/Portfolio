@@ -67,8 +67,14 @@ a{
   padding: 0%;
 }
 
+.laptop-img{
+  height: 140px;
+  width: 140px;
+  filter: invert(100%);
+}
+
 .intro-h5 {
-  margin-top: 200px;
+  margin-top: 5px;
   padding: 0;
   color: #ff4c68;
   font-family: 'Courier New', Courier, monospace;
