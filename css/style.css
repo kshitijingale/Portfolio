@@ -6,15 +6,8 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
-  padding-top: 40px;
+  padding-top: 20px;
 }
-
-/* h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 3rem;
-  line-height: 1.5;
-} */
 
 h3 {
   font-family: 'ubuntu', sans-serif;
@@ -29,19 +22,28 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0 !important;
+}
+
 #title {
   background-color: black;
   color: white;
+  height: 100vh;
 }
 
 .container-fluid {
-  padding: 0% 5% 8%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Navbar */
 
 .navbar {
-  padding: 1rem 0 4.5rem;
+  padding: 0.5rem 0.7rem;
 }
 
 .navbar-brand {
@@ -67,21 +69,13 @@ a {
 /* Home */
 
 .home {
+  margin-top: 150px;
   text-align: center;
-  margin: 3%;
-  padding: 0%;
 }
 
 .intro-h5 {
-  margin-top: 200px;
-  padding: 0;
   color: #ff4c68;
   font-family: 'Courier New', Courier, monospace;
-}
-
-.intro-h1 {
-  margin: 0;
-  padding: 0;
 }
 
 .intro-p {
@@ -90,13 +84,13 @@ a {
 }
 
 .intro-btn {
-  margin: 40px;
+  margin-top: 40px;
 }
 
 .intro-social {
   list-style: none;
-  padding: 0;
-  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon-cls {
@@ -106,8 +100,7 @@ a {
 
 .icon {
   color: white;
-  margin-bottom: 1rem;
-  margin: 10px;
+  margin: 2px;
 }
 .icon:hover {
   color: #ff4c68;
