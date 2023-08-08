@@ -316,7 +316,7 @@ ul {
   #projects .item .right {
     margin-left: 0;
     width: 90%;
-    margin-top: -150px;
+    margin-top: -350px;
   }
   #projects .item:nth-of-type(even) {
     flex-direction: column;
@@ -324,15 +324,29 @@ ul {
   #projects .item:nth-of-type(even) .left {
     margin-left: 0;
   }
+
+  .skills-h3,
+  .profile-h3 {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
+  #projects .item .right {
+    margin-top: -400px;
+  }
+
   #projects .item .right .buttons {
     flex-direction: column;
   }
   #projects .item .right .buttons a {
     width: 100%;
     text-align: center;
+  }
+
+  .project-p {
+    font-size: 1.2rem;
+    margin: 2% 10%;
   }
 }
 
@@ -367,4 +381,14 @@ ul {
   background-color: black;
   color: white;
   padding: 5% 7%;
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-form {
+    width: 85%;
+  }
+
+  .handle {
+    margin-left: 15px;
+  }
 }
